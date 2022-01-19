@@ -1,0 +1,13 @@
+.caption {
+  display: flex;
+  align-items: center;
+  margin-block: 10px;
+  padding-inline: 20px;
+}
+
+.plus {
+  padding-right: 10px;
+  cursor: pointer;
+  width: 25px;
+  justify-self: center;
+}

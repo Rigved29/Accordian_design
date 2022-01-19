@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+.homepage {
+  width: 40%;
+  margin-inline: auto;
+  background-color: #ffff;
+  border-radius: 5px;
+  box-shadow: 0px 28px 40px -20px rgba(107, 99, 255, 0.306079);
+  z-index: 20;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+  font-family: "Mulish", sans-serif;
+}
+.section1 {
+  padding-inline: 60px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  border-bottom: 2px solid #f0f4fd;
+  text-align: left;
+}
+
+.section2 {
+  margin-block: 20px;
+  padding-inline: 60px;
+  text-align: left;
+}
+
+@media only screen and (max-width: 1200px) {
+  .homepage {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .homepage {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .section1 {
+    padding-inline: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #f0f4fd;
+    text-align: left;
+  }
+
+  .section2 {
+    margin-block: 20px;
+    padding-inline: 20px;
+    font-size: small;
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .section2 {
+    padding-inline: 10px;
+  }
+}

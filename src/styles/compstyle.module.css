@@ -1,0 +1,52 @@
+/* styling for Contentcomp component */
+
+.comp {
+  background-color: #f0f4fd;
+  padding-inline: 20px;
+  border-radius: 5px;
+  text-align: left;
+  padding-bottom: 50px;
+  margin-block: 20px;
+}
+
+.caption {
+  display: flex;
+  align-items: center;
+  margin-block: 10px;
+}
+
+.icon {
+  padding: 5px;
+  background-color: white;
+  border-radius: 50px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.para {
+  margin-inline: 35px;
+}
+
+button {
+  background-color: #6b63ff;
+  color: white;
+  padding-inline: 20px;
+  padding-block: 10px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+  .para {
+    margin-left: 35px;
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .para {
+    margin-left: 25px;
+    margin-right: 0px;
+  }
+}
